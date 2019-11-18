@@ -12,6 +12,9 @@ public class BeltranRafaelCUADERNO : MonoBehaviour
      (esto por programacion)
      
      public float velocidad (casilla velocidad)
+
+    escribir idea para añadir en plantilla de analisis de gdd
+    idea: añadir mas onjetos para anotar puntos por ejemplo
      
      */
 

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BeltranRafaelUD3_Principal.unity
+    guid: 4e756298eac84cc4da7be156b86902a9
   m_configObjects: {}
