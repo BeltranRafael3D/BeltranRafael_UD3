@@ -9,6 +9,9 @@ public class ControladorDelJugador : MonoBehaviour
     Rigidbody rb;
     public float velocidad;
     int contador;
+    int numitems_1;
+    int numitems_2;
+    int numitems_3;
 
     public Text marcador;
     public Text finJuego;
@@ -16,8 +19,6 @@ public class ControladorDelJugador : MonoBehaviour
     public void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        contador = 0;
-        ActualizarMarcador();
         finJuego.gameObject.SetActive(false);
     }
 
@@ -33,15 +34,28 @@ public class ControladorDelJugador : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        contador = contador + 1;
-        ActualizarMarcador();
-        if (contador >= 4)
-        {
-            finJuego.gameObject.SetActive(true);
+     
+        if (other.tag == "suma1")
+            {
+            Destroy(other.gameObject);
+            contador = contador + 1;
+            numitems_1 = numitems_1 + 1;
         }
 
+        else if (other.tag == "suma2")
+        {
+            Destroy(other.gameObject);
+            contador = contador + 2;
+            numitems_2 = numitems_2 + 2;
+        }
+        else if (other.tag == "Resta1")
+        {
+            Destroy(other.gameObject);
+            contador = contador - 1;
+            numitems_3 = numitems_3 - 1;
+        }
 
+        ActualizarMarcador();
     }
 
     public void ActualizarMarcador()
