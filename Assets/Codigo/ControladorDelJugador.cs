@@ -56,6 +56,12 @@ public class ControladorDelJugador : MonoBehaviour
         }
 
         ActualizarMarcador();
+
+        if (numitems_1 >= 4 && numitems_2 >=2 )
+        {
+            finJuego.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     public void ActualizarMarcador()
