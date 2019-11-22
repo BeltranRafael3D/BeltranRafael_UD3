@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BeltranRafaelUD3_Principal.unity
     guid: 4e756298eac84cc4da7be156b86902a9
+  - enabled: 1
+    path: Assets/Scenes/BeltranRafaelUD3_Principal_Touch.unity
+    guid: 04ffa869fd4e45c4ab3ce086506b60c5
   m_configObjects: {}
