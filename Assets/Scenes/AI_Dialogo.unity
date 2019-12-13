@@ -467,6 +467,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303166386}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &313161896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8961987475125191973, guid: 6e57e5434467f3841b468dcdf330ef8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 637723703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &414832032
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +679,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &637723703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7630358364286510907, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab_DialogueSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630358364286510907, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.8358765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5733334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.057017
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839349840181712628, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961987474950522445, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961987475087959526, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961987475087959526, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961987475087959526, guid: 6e57e5434467f3841b468dcdf330ef8c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e57e5434467f3841b468dcdf330ef8c, type: 3}
 --- !u!1 &785059218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1320,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529302675}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1574747953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7630358364286510907, guid: 6e57e5434467f3841b468dcdf330ef8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 637723703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1574747955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574747953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4550d423602ff448edb4c2816ec0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 313161896}
+  npcName: Capsule
+  dialogueLines:
+  - 
+  - 
+  - 
 --- !u!1 &1642206894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1447,7 @@ GameObject:
   - component: {fileID: 1726859753}
   - component: {fileID: 1726859752}
   - component: {fileID: 1726859751}
+  - component: {fileID: 1726859755}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1403,6 +1528,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726859755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726859750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfab6e0c9ad056e42a0be9649eef9d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAgent: {fileID: 0}
+  dialogue:
+  - Hola agente soy tu gatita
+  - agente no soy culpable ni soy indecente
+  - agente dirigete al limbo
+  name: rafa
 --- !u!1 &1817727213
 GameObject:
   m_ObjectHideFlags: 0
